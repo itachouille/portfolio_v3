@@ -1,6 +1,6 @@
 import { Section } from "./Section";
 import { Span } from "./Span";
-import { OpenAILogo } from "./icons/OpenaiLogo";
+import { OpenAILogo } from "./icons/OpenAILogo";
 import { ReactLogo } from "./icons/ReactLogo";
 import { TailwindLogo } from "./icons/TailwindLogo";
 import { Badge } from "./ui/badge";

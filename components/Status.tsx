@@ -5,7 +5,6 @@ import { Card } from "./ui/card";
 import {
   ArrowUpRight,
   Code,
-  Home,
   LucideIcon,
   MessageCircle,
   Tv,
@@ -98,33 +97,33 @@ const SIDE_PROJECTS: SideProjectProps[] = [
   },
   {
     logo: Code,
-    title: "MySeries",
-    description: "Une app de gestion de séries TV basée sur la stack MERN.",
-    url: "https://myseries.vercel.app/",
+    title: "Evently",
+    description: "Gestion d'evenement.",
+    url: "https://evently-phi-one.vercel.app/",
   },
   {
     logo: MessageCircle,
-    title: "MySeries",
-    description: "Une app de gestion de séries TV basée sur la stack MERN.",
-    url: "https://myseries.vercel.app/",
+    title: "Nike",
+    description: "Nike front page.",
+    url: "https://nike-ten-beta.vercel.app/",
   },
   {
     logo: Weight,
-    title: "MySeries",
-    description: "Une app de gestion de séries TV basée sur la stack MERN.",
-    url: "https://myseries.vercel.app/",
+    title: "Hilink",
+    description: "front page appli de rangonnée.",
+    url: "https://travel-app-brown.vercel.app/",
   },
   {
     logo: Weight,
-    title: "MySeries",
-    description: "Une app de gestion de séries TV basée sur la stack MERN.",
-    url: "https://myseries.vercel.app/",
+    title: "Car-Rental",
+    description: "Location de voiture.",
+    url: "https://car-rental-topaz-iota.vercel.app/",
   },
   {
     logo: Weight,
-    title: "MySeries",
-    description: "Une app de gestion de séries TV basée sur la stack MERN.",
-    url: "https://myseries.vercel.app/",
+    title: "Fallout Tchat",
+    description: "Un tchat sur le theme Fallout.",
+    url: "https://codesandbox.io/p/github/itachouille/Fallout%20chat",
   },
 ];
 
@@ -140,6 +139,7 @@ const SideProject = (props: SideProjectProps) => {
     <Link
       href={props.url}
       className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-1 rounded"
+      target="_blank"
     >
       <span className="bg-accent text-accent-foreground p-3 rounded-sm">
         <props.logo size={16} />
@@ -191,6 +191,7 @@ const Work = (props: WorkProps) => {
     <Link
       href={props.url}
       className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-1 rounded"
+      target="_blank"
     >
       <img
         className="size-10 object-contain rounded-md"

@@ -16,31 +16,33 @@ export const Hero = () => {
         <h3 className="font-caption text-3xl">
           Développeur Web en recherche d&apos;alternace
         </h3>
-        <p className="text-base">
-          bla bla bla{" "}
-          <Link href="https://github.com/itachouille" target="_blank">
-            <Span className="inline-flex items-center gap-1">
-              <GithubIcon className="inline" size={16} /> Github
-            </Span>
-          </Link>{" "}
-          bla bla bla{" "}
-          <Link href="https://linkedin.com/in/anthonydavid29" target="_blank">
-            <Span className="inline-flex items-center gap-1">
-              <LinkedinIcon className="inline" size={16} /> LinkedIn
-            </Span>
-          </Link>{" "}
-          bla bla bla bla bla bla bla bla bla bla bla{" "}
+        <p className="text-base leading-relaxed">
+          En reconversion professionnelle après 20 ans dans l&apos;aéronautique
+          navale. Contrat de professionnalisation d&apos;Octobre 2024 à Juillet
+          2026. <br /> Rythme: 2 semaines en entreprise / 1 semaine en formation
+          chez{" "}
           <Link href="https://oclock.io/" target="_blank">
             <Span className="inline-flex items-center gap-1">
               <img
-                style={{ width: 16, height: "auto" }}
+                style={{ width: 17, height: "auto" }}
                 src="/logo_oclock.png"
                 alt="Logo O'Clock"
               />{" "}
               O&apos;Clock
             </Span>
-          </Link>{" "}
-          bla bla bla
+          </Link>
+          Retrouvez moi sur {" "}
+          <Link href="https://github.com/itachouille" target="_blank">
+            <Span className="inline-flex items-center gap-1">
+              <GithubIcon className="inline" size={16} /> Github
+            </Span>
+          </Link> {" "}
+          ou sur {" "}
+          <Link href="https://linkedin.com/in/anthonydavid29" target="_blank">
+            <Span className="inline-flex items-center gap-1">
+              <LinkedinIcon className="inline" size={16} /> LinkedIn
+            </Span>
+          </Link>
         </p>
       </div>
       <div className="flex-[2] max-md:m-auto ml-auto">
