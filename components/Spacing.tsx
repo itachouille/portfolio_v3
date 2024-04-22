@@ -1,8 +1,5 @@
 import { cn } from "@/lib/utils";
-
-export type SpacingProps = {
-  size?: "sm" | "md" | "lg";
-};
+import { SpacingProps } from "@/types";
 
 export const Spacing = ({ size = "md" }: SpacingProps) => {
   return (

@@ -18,9 +18,11 @@ export const Hero = () => {
         </h3>
         <p className="text-base leading-relaxed">
           En reconversion professionnelle après 20 ans dans l&apos;aéronautique
-          navale. Contrat de professionnalisation d&apos;Octobre 2024 à Juillet
-          2026. <br /> Rythme: 2 semaines en entreprise / 1 semaine en formation
-          chez{" "}
+          navale.
+          <br />
+          Contrat de professionnalisation d&apos;Octobre 2024 à Juillet 2026.
+          <br />
+          Rythme: 2 semaines en entreprise / 1 semaine en formation chez{" "}
           <Link href="https://oclock.io/" target="_blank">
             <Span className="inline-flex items-center gap-1">
               <img
@@ -31,13 +33,14 @@ export const Hero = () => {
               O&apos;Clock
             </Span>
           </Link>
-          Retrouvez moi sur {" "}
+          <br />
+          Retrouvez moi sur{" "}
           <Link href="https://github.com/itachouille" target="_blank">
             <Span className="inline-flex items-center gap-1">
               <GithubIcon className="inline" size={16} /> Github
             </Span>
-          </Link> {" "}
-          ou sur {" "}
+          </Link>{" "}
+          ou sur{" "}
           <Link href="https://linkedin.com/in/anthonydavid29" target="_blank">
             <Span className="inline-flex items-center gap-1">
               <LinkedinIcon className="inline" size={16} /> LinkedIn

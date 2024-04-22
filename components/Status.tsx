@@ -2,15 +2,10 @@
 import Link from "next/link";
 import { Section } from "./Section";
 import { Card } from "./ui/card";
-import {
-  ArrowUpRight,
-  Code,
-  LucideIcon,
-  MessageCircle,
-  Tv,
-  Weight,
-} from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { Badge } from "./ui/badge";
+import { SideProjectProps, WorkProps } from "@/types";
+import { SIDE_PROJECTS, WORKS } from "@/constants";
 
 export const Status = () => {
   return (
@@ -88,52 +83,6 @@ const ContactCard = (props: {
   );
 };
 
-const SIDE_PROJECTS: SideProjectProps[] = [
-  {
-    logo: Tv,
-    title: "MySeries",
-    description: "Une app de gestion de séries TV basée sur la stack MERN.",
-    url: "https://myseries.vercel.app/",
-  },
-  {
-    logo: Code,
-    title: "Evently",
-    description: "Gestion d'evenement.",
-    url: "https://evently-phi-one.vercel.app/",
-  },
-  {
-    logo: MessageCircle,
-    title: "Nike",
-    description: "Nike front page.",
-    url: "https://nike-ten-beta.vercel.app/",
-  },
-  {
-    logo: Weight,
-    title: "Hilink",
-    description: "front page appli de rangonnée.",
-    url: "https://travel-app-brown.vercel.app/",
-  },
-  {
-    logo: Weight,
-    title: "Car-Rental",
-    description: "Location de voiture.",
-    url: "https://car-rental-topaz-iota.vercel.app/",
-  },
-  {
-    logo: Weight,
-    title: "Fallout Tchat",
-    description: "Un tchat sur le theme Fallout.",
-    url: "https://codesandbox.io/p/github/itachouille/Fallout%20chat",
-  },
-];
-
-type SideProjectProps = {
-  logo: LucideIcon;
-  title: string;
-  description: string;
-  url: string;
-};
-
 const SideProject = (props: SideProjectProps) => {
   return (
     <Link
@@ -150,40 +99,6 @@ const SideProject = (props: SideProjectProps) => {
       </div>
     </Link>
   );
-};
-
-const WORKS: WorkProps[] = [
-  {
-    image: "./logo_oclock.png",
-    title: "Alternance",
-    role: "blabla",
-    date: "2024 - Present",
-    url: "https://oclock.io/",
-  },
-  {
-    image: "./logo_oclock.png",
-    title: "Alternance",
-    role: "blabla",
-    date: "2024 - Present",
-    url: "https://oclock.io/",
-    freelance: true,
-  },
-  {
-    image: "./logo_oclock.png",
-    title: "Alternance",
-    role: "blablablabl",
-    date: "2024 - Present",
-    url: "https://oclock.io/",
-  },
-];
-
-type WorkProps = {
-  image: string;
-  title: string;
-  role: string;
-  date: string;
-  url: string;
-  freelance?: boolean;
 };
 
 const Work = (props: WorkProps) => {
