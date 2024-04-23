@@ -17,5 +17,12 @@ export type WorkProps = {
     role: string;
     date: string;
     url: string;
-    freelance?: boolean;
+    badge?: boolean;
   };
+
+export type ContactCardProps = {
+  image: string;
+  mediumImage: string;
+  name: string;
+  description: string;
+}

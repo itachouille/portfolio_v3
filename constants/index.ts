@@ -1,40 +1,40 @@
-import { Code, MessageCircle, Tv, Weight } from "lucide-react";
+import { CalendarClock, CarFront, MessageCircle, Mountain, ShoppingCart, Tv } from "lucide-react";
 
 export const SIDE_PROJECTS = [
   {
     logo: Tv,
     title: "MySeries",
-    description: "Une app de gestion de séries TV basée sur la stack MERN.",
+    description: "Site de gestion de séries TV",
     url: "https://myseries.vercel.app/",
   },
   {
-    logo: Code,
+    logo: CalendarClock,
     title: "Evently",
-    description: "Gestion d'evenement.",
+    description: "Platforme ",
     url: "https://evently-phi-one.vercel.app/",
   },
   {
-    logo: MessageCircle,
+    logo: ShoppingCart,
     title: "Nike",
-    description: "Nike front page.",
+    description: "Landing page d'un site d'e-commerce",
     url: "https://nike-ten-beta.vercel.app/",
   },
   {
-    logo: Weight,
+    logo: Mountain,
     title: "Hilink",
-    description: "front page appli de rangonnée.",
+    description: "Landing page d'une application mobile",
     url: "https://travel-app-brown.vercel.app/",
   },
   {
-    logo: Weight,
-    title: "Car-Rental",
-    description: "Location de voiture.",
+    logo: CarFront,
+    title: "CarRental",
+    description: "Site de location de voiture",
     url: "https://car-rental-topaz-iota.vercel.app/",
   },
   {
-    logo: Weight,
+    logo: MessageCircle,
     title: "Fallout Tchat",
-    description: "Un tchat sur le theme Fallout.",
+    description: "Un tchat sur le theme Fallout",
     url: "https://codesandbox.io/p/github/itachouille/Fallout%20chat",
   },
 ];
@@ -48,18 +48,11 @@ export const WORKS = [
     url: "https://oclock.io/",
   },
   {
-    image: "./logo_oclock.png",
-    title: "Alternance",
-    role: "blabla",
-    date: "2024 - Present",
-    url: "https://oclock.io/",
-    freelance: true,
-  },
-  {
-    image: "./logo_oclock.png",
-    title: "Alternance",
-    role: "blablablabl",
-    date: "2024 - Present",
-    url: "https://oclock.io/",
+    image: "./Hardcoders.svg",
+    title: "Hardcoders",
+    role: "Développeur Web fullstack",
+    date: "2023 - 2024",
+    url: "https://hardcode.rs",
+    badge: true,
   },
 ];

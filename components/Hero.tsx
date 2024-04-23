@@ -24,7 +24,7 @@ export const Hero = () => {
           <br />
           Rythme: 2 semaines en entreprise / 1 semaine en formation chez{" "}
           <Link href="https://oclock.io/" target="_blank">
-            <Span className="inline-flex items-center gap-1">
+            <Span className="inline-flex items-center gap-1  -bottom-0.5">
               <img
                 style={{ width: 17, height: "auto" }}
                 src="/logo_oclock.png"
@@ -36,13 +36,13 @@ export const Hero = () => {
           <br />
           Retrouvez moi sur{" "}
           <Link href="https://github.com/itachouille" target="_blank">
-            <Span className="inline-flex items-center gap-1">
+            <Span className="inline-flex items-center gap-1  -bottom-0.5">
               <GithubIcon className="inline" size={16} /> Github
             </Span>
           </Link>{" "}
           ou sur{" "}
           <Link href="https://linkedin.com/in/anthonydavid29" target="_blank">
-            <Span className="inline-flex items-center gap-1">
+            <Span className="inline-flex items-center gap-1  -bottom-0.5">
               <LinkedinIcon className="inline" size={16} /> LinkedIn
             </Span>
           </Link>
