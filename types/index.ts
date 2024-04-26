@@ -25,4 +25,5 @@ export type ContactCardProps = {
   mediumImage: string;
   name: string;
   description: string;
+  url: string;
 }

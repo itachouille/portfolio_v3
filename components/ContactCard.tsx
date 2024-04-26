@@ -2,9 +2,11 @@
 import { ContactCardProps } from "@/types";
 import { ArrowUpRight } from "lucide-react";
 import { Card } from "./ui/card";
+import Link from "next/link";
 
 export const ContactCard = (props: ContactCardProps) => {
     return (
+      <Link href={props.url} target="_blank">
       <Card className="w-full p-3 bg-accent/10 flex items-center gap-4 hover:bg-accent/30 transition-colors group">
         <div className="relative size-10">
           <img
@@ -29,6 +31,7 @@ export const ContactCard = (props: ContactCardProps) => {
           size={16}
         />
       </Card>
+      </Link>
     );
   };
   

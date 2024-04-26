@@ -1,6 +1,6 @@
 import { Section } from "./Section";
 import { Span } from "./Span";
-import { OpenAILogo } from "./icons/OpenAILogo";
+import { ApiLogo } from "./icons/ApiLogo";
 import { ReactLogo } from "./icons/ReactLogo";
 import { TailwindLogo } from "./icons/TailwindLogo";
 import { Badge } from "./ui/badge";
@@ -8,9 +8,9 @@ import { Badge } from "./ui/badge";
 export const Skills = () => {
   return (
     <Section className="flex flex-col items-start gap-4">
-      <Badge variant="outline">Skills</Badge>
+      <Badge variant="outline">Compétences</Badge>
       <h2 className="pb-2 text-3xl font-semibold tracking-tight first:mt-0">
-        I love working on ...
+        J&apos;adore travailler sur...
       </h2>
       <div className="flex max-md:flex-col gap-4">
         <div className="flex flex-col gap-2 flex-1">
@@ -21,26 +21,27 @@ export const Skills = () => {
           />
           <h3 className="text-2xl font-semibold tracking-tight">React</h3>
           <p className="text-sm text-muted-foreground">
-            My main framework is <Span>React</Span>. I also use{" "}
-            <Span>Next.js</Span> as a backend and frontend framework.
+            Mon framework principal est <Span>React</Span>.<br />
+            J&apos;utilise également <Span>Next.js</Span> comme framework
+            backend et frontend.
           </p>
         </div>
         <div className="flex flex-col gap-2 flex-1">
           <TailwindLogo size={42} />
           <h3 className="text-2xl font-semibold tracking-tight">Tailwind</h3>
           <p className="text-sm text-muted-foreground">
-            I can create <u>beautiful</u> application <i>in seconds</i> using{" "}
-            <Span>TailwindCSS</Span>.
+            Je peux créer une <u>belle</u> application en quelques{" "}
+            <i>minutes</i> en utilisant <Span>TailwindCSS</Span>.
           </p>
         </div>
         <div className="flex flex-col gap-2 flex-1">
-          <OpenAILogo size={42} />
+          <ApiLogo size={42} />
           <h3 className="text-2xl font-semibold tracking-tight">
-            AI Integration
+            API Integration
           </h3>
           <p className="text-sm text-muted-foreground">
-            I love integrating AI in application to create a perfect{" "}
-            <u>user experience</u>.
+            J&apos;aime intégrer des API dans mes applications pour créer une
+            parfaite <u>expérience utilisateur</u>.
           </p>
         </div>
       </div>
