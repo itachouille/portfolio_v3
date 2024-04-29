@@ -11,7 +11,7 @@ export const Header = () => {
     <header className="top-0 py-4">
       <Section className="flex items-baseline">
         <h1 className="text-xl md:text-2xl font-bold text-primary">
-          anthonydavid.fr
+          davidanthony.fr
         </h1>
         <div className="flex-1" />
         <ul className="flex items-center gap-2">
@@ -20,7 +20,7 @@ export const Header = () => {
               href="https://github.com/itachouille"
               className={cn(
                 buttonVariants({ variant: "outline" }),
-                "size-6 md:size-8 p-0"
+                "size-6 md:size-10 p-0"
               )}
               target="_blank"
               aria-label="github icon"
@@ -33,7 +33,7 @@ export const Header = () => {
               href="/#"
               className={cn(
                 buttonVariants({ variant: "outline" }),
-                "size-6 md:size-8 p-0"
+                "size-6 md:size-10 p-0"
               )}
               target="_blank"
               aria-label="twitter icon"
@@ -46,7 +46,7 @@ export const Header = () => {
               href="https://linkedin.com/in/anthonydavid29"
               className={cn(
                 buttonVariants({ variant: "outline" }),
-                "size-6 md:size-8 p-0"
+                "size-6 md:size-10 p-0"
               )}
               target="_blank"
               aria-label="linkedin icon"

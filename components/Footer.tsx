@@ -4,8 +4,8 @@ export const Footer = () => {
   return (
     <footer className="bg-card">
       <Section className="py-8">
-        <p className="text-muted-foreground text-base text-center">
-          anthonydavid.fr © {new Date().getFullYear()}. All rights reserved.
+        <p className="text-muted-foreground text-base">
+          davidanthony.fr © {new Date().getFullYear()}.
         </p>
       </Section>
     </footer>

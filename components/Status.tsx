@@ -1,6 +1,6 @@
 import { Section } from "./Section";
 import { Card } from "./ui/card";
-import { CONTACTS, SIDE_PROJECTS, WORKS } from "@/constants";
+import { SOCIALS, SIDE_PROJECTS, WORKS } from "@/constants";
 import { SideProject } from "./SideProject";
 import { Work } from "./Work";
 import { ContactCard } from "./ContactCard";
@@ -29,7 +29,7 @@ export const Status = () => {
         </Card>
         <Card className="flex-1 p-4 flex flex-col gap-2">
           <p className="text-lg text-muted-foreground">Réseaux sociaux</p>
-          {CONTACTS.map((contact, index) => (
+          {SOCIALS.map((contact, index) => (
             <ContactCard key={index} {...contact} />
           ))}
         </Card>
