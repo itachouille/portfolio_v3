@@ -22,8 +22,7 @@ export const Skills = () => {
           <h3 className="text-2xl font-semibold tracking-tight">React</h3>
           <p className="text-sm text-muted-foreground">
             Mon framework principal est <Span>React</Span>.<br />
-            J&apos;utilise également <Span>Next.js</Span> comme framework
-            backend et frontend.
+            J&apos;utilise également <Span>Next.js</Span>.
           </p>
         </div>
         <div className="flex flex-col gap-2 flex-1">

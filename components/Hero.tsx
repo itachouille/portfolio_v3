@@ -1,10 +1,10 @@
-/* eslint-disable @next/next/no-img-element */
-import { ComponentPropsWithoutRef } from "react";
 import { Section } from "./Section";
 import { GithubIcon } from "./icons/GithubIcon";
 import { LinkedinIcon } from "./icons/LinkedinIcon";
 import Link from "next/link";
 import { Span } from "./Span";
+import Image from "next/image";
+import profilePic from "../public/profilePic.jpeg";
 
 export const Hero = () => {
   return (
@@ -13,10 +13,10 @@ export const Hero = () => {
         <h2 className="font-caption text-primary text-5xl font-bold">
           Anthony DAVID
         </h2>
-        <h3 className="font-caption text-3xl">
+        <h3 className="font-caption text-2xl md:text-3xl">
           Développeur Web en recherche d&apos;alternace
         </h3>
-        <p className="text-base leading-relaxed">
+        <p className="text-sm leading-relaxed md:text-base">
           En reconversion professionnelle après 20 ans dans l&apos;aéronautique
           navale.
           <br />
@@ -25,8 +25,9 @@ export const Hero = () => {
           Rythme: 2 semaines en entreprise / 1 semaine en formation chez{" "}
           <Link href="https://oclock.io/" target="_blank">
             <Span className="inline-flex items-center gap-1  -bottom-0.5">
-              <img
-                style={{ width: 17, height: "auto" }}
+              <Image
+                width={16}
+                height={16}
                 src="/logo_oclock.png"
                 alt="Logo O'Clock"
               />{" "}
@@ -49,8 +50,8 @@ export const Hero = () => {
         </p>
       </div>
       <div className="flex-[2] max-md:m-auto ml-auto">
-        <img
-          src="photo.jpeg"
+        <Image
+          src={profilePic}
           alt="anthony's picture"
           className="w-full h-auto rounded-full max-w-xs max-md:w-56"
         />
