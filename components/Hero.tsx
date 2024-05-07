@@ -4,7 +4,7 @@ import { LinkedinIcon } from "./icons/LinkedinIcon";
 import Link from "next/link";
 import { Span } from "./Span";
 import Image from "next/image";
-import profilePic from "../public/profilePic.jpeg";
+import profilePic from "../public/profilePic.png";
 
 export const Hero = () => {
   return (
@@ -45,7 +45,7 @@ export const Hero = () => {
           </Link>
         </p>
       </div>
-      <div className="flex-[2] max-md:m-auto ml-auto">
+      <div className="flex-[2] max-md:m-auto ml-auto md:contents">
         <Image
           src={profilePic}
           alt="anthony's picture"

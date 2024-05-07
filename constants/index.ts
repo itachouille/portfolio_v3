@@ -54,14 +54,14 @@ export const WORKS = [
 export const SOCIALS = [
   {
     name: "Anthony DAVID",
-    image: "/profilePic.jpeg",
+    image: "/profilePic.png",
     mediumImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
     description: "13 Relations",
     url: "https://www.linkedin.com/in/anthonydavid29"
   },
   {
     name: "@itachouille",
-    image: "/profilePic.jpeg",
+    image: "/profilePic.png",
     mediumImage: "https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png",
     description: "26 abonnés",
     url: "https://twitter.com/itachouille"
@@ -71,21 +71,21 @@ export const SOCIALS = [
 export const CONTACTS = [
   {
     name: "Anthony DAVID",
-    image: "/profilePic.jpeg",
+    image: "/profilePic.png",
     mediumImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
     description: "13 Relations",
     url: "https://www.linkedin.com/in/anthonydavid29"
   },
   {
     name: "anthony.david34@sfr.fr",
-    image: "/profilePic.jpeg",
+    image: "/profilePic.png",
     description: "Envoyez-moi un mail pour toute demande",
     mediumImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/SFR-2008-logo.svg/558px-SFR-2008-logo.svg.png",
     url: "mailto:anthony.david34@sfr.fr"
   },
   {
     name: "@itachouille",
-    image: "/profilePic.jpeg",
+    image: "/profilePic.png",
     mediumImage: "https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png",
     description: "26 abonnés",
     url: "https://twitter.com/itachouille"
