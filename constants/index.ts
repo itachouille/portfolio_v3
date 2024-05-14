@@ -10,25 +10,25 @@ export const SIDE_PROJECTS = [
   {
     logo: ShoppingCart,
     title: "Nike",
-    description: "Landing page d'un site d'e-commerce",
+    description: "Homepage d'un site d'e-commerce",
     url: "https://nike-ten-beta.vercel.app/",
   },
   {
     logo: Mountain,
     title: "Hilink",
-    description: "Landing page d'une application mobile",
+    description: "Homepage d'une application mobile",
     url: "https://travel-app-brown.vercel.app/",
   },
   {
     logo: CarFront,
     title: "CarRental",
-    description: "Site de location de voiture",
+    description: "Homepage d'un site de location",
     url: "https://car-rental-topaz-iota.vercel.app/",
   },
   {
     logo: Tv,
     title: "MySeries",
-    description: "Site de gestion de séries TV",
+    description: "Application web de gestion de séries TV",
     url: "https://myseries.vercel.app/",
   },
 ];
@@ -53,14 +53,14 @@ export const WORKS = [
 
 export const SOCIALS = [
   {
-    name: "Anthony DAVID",
+    name: "Linkedin",
     image: "/profilePic.png",
     mediumImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
     description: "13 Relations",
     url: "https://www.linkedin.com/in/anthonydavid29"
   },
   {
-    name: "@itachouille",
+    name: "Twitter",
     image: "/profilePic.png",
     mediumImage: "https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png",
     description: "26 abonnés",
@@ -70,24 +70,24 @@ export const SOCIALS = [
 
 export const CONTACTS = [
   {
-    name: "Anthony DAVID",
+    name: "Linkedin",
     image: "/profilePic.png",
     mediumImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
-    description: "13 Relations",
+    description: "Par message privé",
     url: "https://www.linkedin.com/in/anthonydavid29"
   },
   {
-    name: "anthony.david34@sfr.fr",
+    name: "Mail",
     image: "/profilePic.png",
     description: "Envoyez-moi un mail pour toute demande",
     mediumImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/SFR-2008-logo.svg/558px-SFR-2008-logo.svg.png",
     url: "mailto:anthony.david34@sfr.fr"
   },
   {
-    name: "@itachouille",
+    name: "Twitter",
     image: "/profilePic.png",
     mediumImage: "https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png",
-    description: "26 abonnés",
+    description: "Par message privé",
     url: "https://twitter.com/itachouille"
   }
 ]
