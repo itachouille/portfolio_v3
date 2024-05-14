@@ -77,11 +77,11 @@ export const CONTACTS = [
     url: "https://www.linkedin.com/in/anthonydavid29"
   },
   {
-    name: "Mail",
+    name: "contact@davidanthony.fr",
     image: "/profilePic.png",
     description: "Envoyez-moi un mail pour toute demande",
     mediumImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/SFR-2008-logo.svg/558px-SFR-2008-logo.svg.png",
-    url: "mailto:anthony.david34@sfr.fr"
+    url: "mailto:contact@davidanthony.fr"
   },
   {
     name: "Twitter",
