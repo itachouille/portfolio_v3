@@ -11,7 +11,7 @@ export const Hero = () => {
     <Section className="flex max-md:flex-col items-start gap-4">
       <div className="flex-[3] w-full flex flex-col gap-2 md:gap-6">
         <h2 className="font-caption text-primary text-5xl font-bold">
-          Anthony DAVID
+          DAVID Anthony
         </h2>
         <h3 className="font-caption text-2xl md:text-3xl">Développeur Web</h3>
         <p className="text-sm leading-relaxed md:leading-loose md:text-base">
