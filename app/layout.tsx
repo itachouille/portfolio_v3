@@ -11,8 +11,11 @@ const anekTelugu = Anek_Telugu({
 });
 
 export const metadata: Metadata = {
-  title: "Anthony DAVID · Portfolio",
+  title: "DAVID Anthony · Portfolio",
   description: "Développeur Web en recherche d'alternance",
+  icons: {
+    icon: "/app/favicon.ico"
+  }
 };
 
 export default function RootLayout({

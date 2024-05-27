@@ -1,6 +1,12 @@
-import { CalendarClock, CarFront, Mountain, ShoppingCart, Tv } from "lucide-react";
+import { CalendarClock, CarFront, Mountain, ShoppingCart, Smartphone, Tv } from "lucide-react";
 
 export const SIDE_PROJECTS = [
+  {
+    logo: Smartphone,
+    title: "CaseCobra",
+    description: "Application web de vente de coques personnalisées pour téléphone",
+    url: "https://casecobra-sigma.vercel.app",
+  },
   {
     logo: CalendarClock,
     title: "Evently",
@@ -24,12 +30,6 @@ export const SIDE_PROJECTS = [
     title: "CarRental",
     description: "Homepage d'un site de location",
     url: "https://car-rental-topaz-iota.vercel.app/",
-  },
-  {
-    logo: Tv,
-    title: "MySeries",
-    description: "Application web de gestion de séries TV",
-    url: "https://myseries.vercel.app/",
   },
 ];
 
@@ -56,14 +56,14 @@ export const SOCIALS = [
     name: "Linkedin",
     image: "/profilePic.png",
     mediumImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
-    description: "13 Relations",
+    description: "19 Relations",
     url: "https://www.linkedin.com/in/anthonydavid29"
   },
   {
     name: "Twitter",
     image: "/profilePic.png",
     mediumImage: "https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png",
-    description: "26 abonnés",
+    description: "39 abonnés",
     url: "https://twitter.com/itachouille"
   }
 ]
