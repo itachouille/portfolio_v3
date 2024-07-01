@@ -56,14 +56,14 @@ export const SOCIALS = [
     name: "Linkedin",
     image: "/profilePic.png",
     mediumImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
-    description: "19 Relations",
+    description: "20 Relations",
     url: "https://www.linkedin.com/in/anthonydavid29"
   },
   {
     name: "Twitter",
     image: "/profilePic.png",
     mediumImage: "https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png",
-    description: "39 abonnés",
+    description: "46 abonnés",
     url: "https://twitter.com/itachouille"
   }
 ]
