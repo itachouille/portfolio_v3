@@ -1,10 +1,18 @@
-import { CalendarClock, CarFront, Mountain, ShoppingCart, Smartphone, Tv } from "lucide-react";
+import {
+  CalendarClock,
+  CarFront,
+  Mountain,
+  ShoppingCart,
+  Smartphone,
+  Tv,
+} from "lucide-react";
 
 export const SIDE_PROJECTS = [
   {
     logo: Smartphone,
     title: "CaseCobra",
-    description: "Application web de vente de coques personnalisées pour téléphone",
+    description:
+      "Application web de vente de coques personnalisées pour téléphone",
     url: "https://casecobra-sigma.vercel.app",
   },
   {
@@ -55,39 +63,44 @@ export const SOCIALS = [
   {
     name: "Linkedin",
     image: "/profilePic.png",
-    mediumImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
-    description: "20 Relations",
-    url: "https://www.linkedin.com/in/anthonydavid29"
+    mediumImage:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
+    description: "35 Relations",
+    url: "https://www.linkedin.com/in/anthonydavid29",
   },
   {
     name: "Twitter",
     image: "/profilePic.png",
-    mediumImage: "https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png",
-    description: "46 abonnés",
-    url: "https://twitter.com/itachouille"
-  }
-]
+    mediumImage:
+      "https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png",
+    description: "43 abonnés",
+    url: "https://twitter.com/itachouille",
+  },
+];
 
 export const CONTACTS = [
   {
     name: "Linkedin",
     image: "/profilePic.png",
-    mediumImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
+    mediumImage:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
     description: "Par message privé",
-    url: "https://www.linkedin.com/in/anthonydavid29"
+    url: "https://www.linkedin.com/in/anthonydavid29",
   },
   {
     name: "contact@davidanthony.fr",
     image: "/profilePic.png",
     description: "Envoyez-moi un mail pour toute demande",
-    mediumImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/SFR-2008-logo.svg/558px-SFR-2008-logo.svg.png",
-    url: "mailto:contact@davidanthony.fr"
+    mediumImage:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/SFR-2008-logo.svg/558px-SFR-2008-logo.svg.png",
+    url: "mailto:contact@davidanthony.fr",
   },
   {
     name: "Twitter",
     image: "/profilePic.png",
-    mediumImage: "https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png",
+    mediumImage:
+      "https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png",
     description: "Par message privé",
-    url: "https://twitter.com/itachouille"
-  }
-]
+    url: "https://twitter.com/itachouille",
+  },
+];
