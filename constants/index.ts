@@ -65,7 +65,7 @@ export const SOCIALS = [
     image: "/profilePic.png",
     mediumImage:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
-    description: "35 Relations",
+    description: "137 Relations",
     url: "https://www.linkedin.com/in/anthonydavid29",
   },
   {
@@ -73,7 +73,7 @@ export const SOCIALS = [
     image: "/profilePic.png",
     mediumImage:
       "https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png",
-    description: "43 abonnés",
+    description: "100 abonnés",
     url: "https://twitter.com/itachouille",
   },
 ];

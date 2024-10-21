@@ -15,8 +15,8 @@ export const Hero = () => {
         </h2>
         <h3 className="font-caption text-2xl md:text-3xl">Développeur Web</h3>
         <p className="text-sm leading-relaxed md:leading-loose md:text-base">
-          Recherche d&apos;un contrat de professionnalisation d&apos;Octobre
-          2024 à Juillet 2026.
+          Recherche d&apos;un contrat de professionnalisation de Janvier 2025 à
+          Septembre 2026.
           <br />
           Rythme: 2 semaines en entreprise / 1 semaine en formation chez{" "}
           <Link href="https://oclock.io/" target="_blank">
