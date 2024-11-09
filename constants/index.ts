@@ -1,4 +1,5 @@
 import {
+  BellRing,
   CalendarClock,
   CarFront,
   Mountain,
@@ -9,10 +10,16 @@ import {
 
 export const SIDE_PROJECTS = [
   {
+    logo: BellRing,
+    title: "PingPanda",
+    description: "Application web de monitoring SaaS avec alertes Discord.",
+    url: "https://ping-panda-one.vercel.app/",
+  },
+  {
     logo: Smartphone,
     title: "CaseCobra",
     description:
-      "Application web de vente de coques personnalisées pour téléphone",
+      "Application web de vente de coques de téléphone personnalisables",
     url: "https://casecobra-sigma.vercel.app",
   },
   {
@@ -32,12 +39,6 @@ export const SIDE_PROJECTS = [
     title: "Hilink",
     description: "Homepage d'une application mobile",
     url: "https://travel-app-brown.vercel.app/",
-  },
-  {
-    logo: CarFront,
-    title: "CarRental",
-    description: "Homepage d'un site de location",
-    url: "https://car-rental-topaz-iota.vercel.app/",
   },
 ];
 
@@ -65,7 +66,7 @@ export const SOCIALS = [
     image: "/profilePic.png",
     mediumImage:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
-    description: "137 Relations",
+    description: "197 Relations",
     url: "https://www.linkedin.com/in/anthonydavid29",
   },
   {
@@ -73,7 +74,7 @@ export const SOCIALS = [
     image: "/profilePic.png",
     mediumImage:
       "https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png",
-    description: "100 abonnés",
+    description: "102 abonnés",
     url: "https://twitter.com/itachouille",
   },
 ];
