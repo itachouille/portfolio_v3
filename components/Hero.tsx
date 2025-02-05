@@ -39,7 +39,10 @@ export const Hero = () => {
             </Span>
           </Link>{" "}
           ou{" "}
-          <Link href="https://github.com/itachouille" target="_blank">
+          <Link
+            href="https://bsky.app/profile/itachouille.bsky.social"
+            target="_blank"
+          >
             <Span className="inline-flex items-center gap-1 -bottom-0.5">
               <BlueskyIcon className="inline" size={16} /> Bluesky
             </Span>

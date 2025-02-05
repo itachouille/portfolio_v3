@@ -29,13 +29,7 @@ export const Skills: FC = () => {
       </h2>
       <div className="flex max-md:flex-col gap-4">
         <SkillItem
-          logo={
-            <ReactLogo
-              size={42}
-              className="animate-spin"
-              style={{ animation: "spin 10s linear infinite" }}
-            />
-          }
+          logo={<ReactLogo size={42} />}
           title="React"
           description={
             <>

@@ -42,11 +42,11 @@ export const SIDE_PROJECTS = [
 
 export const WORKS = [
   {
-    image: "./favicon.ico",
+    image: "https://www.svgrepo.com/show/349444/malt.svg",
     title: "Freelance",
     role: "Développeur web freelance",
     date: "2024 - Present",
-    url: "",
+    url: "https://www.malt.fr/profile/anthonydavid",
   },
   {
     image: "./Hardcoders.svg",
