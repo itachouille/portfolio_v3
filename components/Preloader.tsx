@@ -77,7 +77,7 @@ export function Preloader() {
       variants={slideUp}
       initial="initial"
       exit="exit"
-      className="fixed z-50 flex h-[100vh] w-[100vw] items-center justify-center bg-background"
+      className="fixed z-[9999] flex h-[100vh] w-[100vw] items-center justify-center bg-background"
     >
       {dimension.width > 0 && (
         <>
@@ -92,7 +92,7 @@ export function Preloader() {
           </motion.p>
           <svg
             className="absolute top-0 h-[calc(100%+300px)] w-full"
-            fill="#272934"
+            fill="#15161c"
           >
             <motion.path
               variants={curve}
