@@ -1,18 +1,16 @@
 import {
   BellRing,
   CalendarClock,
-  CarFront,
   Mountain,
   ShoppingCart,
   Smartphone,
-  Tv,
 } from "lucide-react";
 
 export const SIDE_PROJECTS = [
   {
     logo: BellRing,
     title: "PingPanda",
-    description: "Application web de monitoring SaaS avec alertes Discord.",
+    description: "Application web de monitoring SaaS avec alertes Discord",
     url: "https://ping-panda-one.vercel.app/",
   },
   {
@@ -44,11 +42,11 @@ export const SIDE_PROJECTS = [
 
 export const WORKS = [
   {
-    image: "./logo_oclock.png",
-    title: "Alternance",
-    role: "Recherche d'alternance",
+    image: "./favicon.ico",
+    title: "Freelance",
+    role: "Développeur web freelance",
     date: "2024 - Present",
-    url: "https://oclock.io/",
+    url: "",
   },
   {
     image: "./Hardcoders.svg",
@@ -66,16 +64,16 @@ export const SOCIALS = [
     image: "/profilePic.png",
     mediumImage:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
-    description: "197 Relations",
+    description: "335 Relations",
     url: "https://www.linkedin.com/in/anthonydavid29",
   },
   {
-    name: "Twitter",
+    name: "Bluesky",
     image: "/profilePic.png",
     mediumImage:
-      "https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png",
-    description: "102 abonnés",
-    url: "https://twitter.com/itachouille",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/640px-Bluesky_Logo.svg.png",
+    description: "102 abonné·e·s",
+    url: "https://bsky.app/profile/itachouille.bsky.social",
   },
 ];
 
@@ -97,11 +95,11 @@ export const CONTACTS = [
     url: "mailto:contact@davidanthony.fr",
   },
   {
-    name: "Twitter",
+    name: "Bluesky",
     image: "/profilePic.png",
     mediumImage:
-      "https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/640px-Bluesky_Logo.svg.png",
     description: "Par message privé",
-    url: "https://twitter.com/itachouille",
+    url: "https://bsky.app/profile/itachouille.bsky.social",
   },
 ];

@@ -15,32 +15,23 @@ export const Hero = () => {
         </h2>
         <h3 className="font-caption text-2xl md:text-3xl">Développeur Web</h3>
         <p className="text-sm leading-relaxed md:leading-loose md:text-base">
-          Recherche d&apos;un contrat de professionnalisation de Janvier 2025 à
-          Septembre 2026.
-          <br />
-          Rythme: 2 semaines en entreprise / 1 semaine en formation chez{" "}
-          <Link href="https://oclock.io/" target="_blank">
-            <Span className="inline-flex items-center gap-1 -bottom-0.5">
-              <Image
-                width={16}
-                height={16}
-                src="/logo_oclock.png"
-                alt="Logo O'Clock"
-              />{" "}
-              O&apos;Clock
-            </Span>
-          </Link>
-          <br />
+          Passionné par le monde du développement web, j&apos;ai commencé à apprendre les bases du HTML, CSS et
+          JavaScript en autodidacte.
+          <br/>
+          Pour aller plus loin, j&apos;ai suivi la formation de développeur web fullstack chez Hardcoders.
+          <br/>
+          Je suis maintenant développeur web en freelance.
+          <br/>
           Retrouvez moi sur{" "}
           <Link href="https://linkedin.com/in/anthonydavid29" target="_blank">
             <Span className="inline-flex items-center gap-1  -bottom-0.5">
-              <LinkedinIcon className="inline" size={16} /> LinkedIn
+              <LinkedinIcon className="inline" size={16}/> LinkedIn
             </Span>
           </Link>{" "}
           ou sur{" "}
           <Link href="https://github.com/itachouille" target="_blank">
-            <Span className="inline-flex items-center gap-1  -bottom-0.5">
-              <GithubIcon className="inline" size={16} /> Github
+            <Span className="inline-flex items-center gap-1 -bottom-0.5">
+              <GithubIcon className="inline" size={16}/> Github
             </Span>
           </Link>
         </p>

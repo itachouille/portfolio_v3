@@ -25,7 +25,7 @@ export const Skills: FC = () => {
     <Section className="flex flex-col items-start gap-4">
       <Badge variant="outline">Compétences</Badge>
       <h2 className="pb-2 text-3xl font-semibold tracking-tight first:mt-0">
-        J&apos;adore travailler sur...
+        J&apos;adore travailler avec...
       </h2>
       <div className="flex max-md:flex-col gap-4">
         <SkillItem
