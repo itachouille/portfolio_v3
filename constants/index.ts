@@ -64,7 +64,7 @@ export const SOCIALS = [
     image: "/profilePic.png",
     mediumImage:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
-    description: "335 Relations",
+    description: "448 Relations",
     url: "https://www.linkedin.com/in/anthonydavid29",
   },
   {
@@ -79,12 +79,11 @@ export const SOCIALS = [
 
 export const CONTACTS = [
   {
-    name: "Linkedin",
+    name: "Malt",
     image: "/profilePic.png",
-    mediumImage:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
-    description: "Par message privé",
-    url: "https://www.linkedin.com/in/anthonydavid29",
+    mediumImage: "https://www.svgrepo.com/show/349444/malt.svg",
+    description: "Par la platefome",
+    url: "https://www.malt.fr/profile/anthonydavid",
   },
   {
     name: "contact@davidanthony.fr",
@@ -95,11 +94,11 @@ export const CONTACTS = [
     url: "mailto:contact@davidanthony.fr",
   },
   {
-    name: "Bluesky",
+    name: "Linkedin",
     image: "/profilePic.png",
     mediumImage:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/640px-Bluesky_Logo.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
     description: "Par message privé",
-    url: "https://bsky.app/profile/itachouille.bsky.social",
+    url: "https://www.linkedin.com/in/anthonydavid29",
   },
 ];

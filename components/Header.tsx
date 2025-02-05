@@ -3,8 +3,9 @@ import { Section } from "./Section";
 import { buttonVariants } from "./ui/button";
 import { cn } from "@/lib/utils";
 import { GithubIcon } from "./icons/GithubIcon";
-import { TwitterIcon } from "./icons/TwitterIcon";
+import { BlueskyIcon } from "./icons/TwitterIcon";
 import { LinkedinIcon } from "./icons/LinkedinIcon";
+import { MaltIcon } from "./icons/MaltIcon";
 
 export const Header = () => {
   return (
@@ -17,15 +18,15 @@ export const Header = () => {
         <ul className="flex items-center gap-2">
           <li>
             <Link
-              href="https://github.com/itachouille"
+              href="https://www.malt.fr/profile/anthonydavid"
               className={cn(
                 buttonVariants({ variant: "outline" }),
                 "size-6 md:size-10 p-0"
               )}
               target="_blank"
-              aria-label="github icon"
+              aria-label="malt icon"
             >
-              <GithubIcon
+              <MaltIcon
                 size={16}
                 className="text-foreground"
                 aria-hidden="true"
@@ -51,7 +52,7 @@ export const Header = () => {
           </li>
           <li>
             <Link
-              href="/#"
+              href="https://bsky.app/profile/itachouille.bsky.social"
               className={cn(
                 buttonVariants({ variant: "outline" }),
                 "size-6 md:size-10 p-0"
@@ -59,7 +60,24 @@ export const Header = () => {
               target="_blank"
               aria-label="twitter icon"
             >
-              <TwitterIcon
+              <BlueskyIcon
+                size={16}
+                className="text-foreground"
+                aria-hidden="true"
+              />
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="https://github.com/itachouille"
+              className={cn(
+                buttonVariants({ variant: "outline" }),
+                "size-6 md:size-10 p-0"
+              )}
+              target="_blank"
+              aria-label="github icon"
+            >
+              <GithubIcon
                 size={16}
                 className="text-foreground"
                 aria-hidden="true"
